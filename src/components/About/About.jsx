@@ -10,7 +10,7 @@ function About() {
                             <h1 className='text-7xl font-serif'>Know Who I Am?</h1>
                             <p className='text-xl'>My name is Riddh Modi. Pursuing a Bachelor of Engineering in Computer Engineering from Ahmedabad Institute of Technology. Passionate about <span className=' text-orange-500 font-medium'>Java Full Stack Development & Mobile Application Development</span>. Currently, I am in my final year. After my graduation, will shifting career into any big technology like wise <span id='tech' className=' text-orange-500 font-medium'>AI, Cyber Security, DevOps, Data Analytics.</span></p>
                         </div>
-                        <img src="src/Image/photo.jpg" alt="my pic" className='w-1/4 rounded-xl' />
+                        <img src="/src/Image/photo.jpg" alt="my pic" className='w-1/4 rounded-xl' />
                     </div>
                     <div className='w-full h-full flex flex-col justify-evenly items-center'>
                         <h1 className='text-4xl font-medium font-sans'>Languages</h1>
