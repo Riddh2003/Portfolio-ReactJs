@@ -26,9 +26,9 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/contact"
+                                    to="/project"
                                     className={({ isActive }) => `block py-2 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
-                                    Contact
+                                    Project
                                 </NavLink>
                             </li>
                             <li>

@@ -8,7 +8,7 @@ export default function Home() {
                     <div className='w-full h-1/2 flex justify-around items-center'>
                         <img src="https://thumbs.dreamstime.com/b/freelancer-worker-work-laptop-remotely-beach-freelance-web-developer-programmer-coding-living-tropic-resort-island-234064191.jpg" alt="beach coder image" className='w-1/3 h-full' />
                         <p className='w-1/2 text-lg text-justify'>
-                            <span className='text-4xl'>👋Hi,</span> I recently developed a dynamic web application using <span className='text-orange-500 font-medium'>React Js.</span>, leveraging its component-based architecture to create a modular and maintainable codebase. The project integrates with a <span className='text-orange-500 font-medium'>Github API</span> to fetch and render real-time data, ensuring users always have the most up-to-date information.
+                            <span className='text-4xl'>👋Hi,</span> I recently developed a Portfolio using <span className='text-orange-500 font-medium'>React Js.</span>, leveraging its component-based architecture to create a modular and maintainable codebase. The project integrates with a <span className='text-orange-500 font-medium'>Github API</span> to fetch and render real-time data, ensuring users always have the most up-to-date information.
                         </p>
                     </div>
                     <div className='w-full h-1/2 my-5 flex felx-row justify-around items-center'>
