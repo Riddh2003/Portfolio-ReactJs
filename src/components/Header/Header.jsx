@@ -13,28 +13,35 @@ export default function Header() {
                             <li>
                                 <NavLink
                                     to="/"
-                                    className={({ isActive }) => `block py-2 px-4 ${isActive ? "text-black" : "text-white"} hover:text-black`}>
+                                    className={({ isActive }) => `block text-lg py-1 px-4 ${isActive ? "text-black" : "text-white"} hover:text-black`}>
                                     Home
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to="/about"
-                                    className={({ isActive }) => `block py-2 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
+                                    className={({ isActive }) => `block text-lg py-1 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
                                     About
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to="/project"
-                                    className={({ isActive }) => `block py-2 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
+                                    className={({ isActive }) => `block text-lg py-1 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
                                     Project
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
+                                    to="/resume"
+                                    className={({ isActive }) => `block text-lg py-1 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
+                                    Resume
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
                                     to="/github"
-                                    className={({ isActive }) => `block py-2 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
+                                    className={({ isActive }) => `block text-lg py-1 px-4 ${isActive ? "text-black" : "text-white"}  hover:text-black`}>
                                     GitHub
                                 </NavLink>
                             </li>

@@ -8,12 +8,14 @@ import About from './components/About/About.jsx'
 import Project from './components/Project/Project.jsx'
 import GitHub, { githubInfo } from './components/GitHub/GitHub.jsx'
 import User from './components/User/User.jsx'
+import Resume from './components/Resume/Resume.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route path='' element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='project' element={<Project />} />
+      <Route path='resume' element={<Resume />} />
       <Route
         loader={githubInfo}
         path='github'

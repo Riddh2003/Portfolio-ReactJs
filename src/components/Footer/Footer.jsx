@@ -34,6 +34,14 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <NavLink
+                                        to={"/resume"}
+                                        className={({ isActive }) => `
+                                    block py-2 px-4 ${isActive ? "text-black" : "text-white"} hover:text-black`}>
+                                        Resume
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
                                         to={"/github"}
                                         className={({ isActive }) => `
                                     block py-2 px-4 ${isActive ? "text-black" : "text-white"} hover:text-black`}>
