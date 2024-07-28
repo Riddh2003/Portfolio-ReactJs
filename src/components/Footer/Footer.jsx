@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <footer className='w-full flex justify-center'>
-                <div className='w-11/12 p-3 bg-orange-400 rounded shadow-orange-400 shadow-lg flex flex-col items-center gap-4'>
+                <div className='w-full p-3 bg-orange-400 shadow-orange-400 shadow-lg flex flex-col items-center gap-4'>
                     <div className='w-full flex flex-row justify-around'>
                         <div>
                             <ul className='flex justify-center gap-4'>
