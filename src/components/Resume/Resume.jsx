@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../Image/Resume.jpg'
 
 const Resume = () => {
 
@@ -20,10 +21,10 @@ const Resume = () => {
                 ><i className="fa-solid fa-download text-black mr-2"/>
                     Download
                 </button>
-                <img src="src/Image/Resume.jpg" alt="resume image"  className='w-8/12 rounded-xl shadow-2xl'/>
+                <img src={resume} alt="resumeimage"  className='w-8/12 rounded-xl shadow-2xl'/>
             </div>
         </div>
-    );
+    );  
 };
 
 export default Resume;

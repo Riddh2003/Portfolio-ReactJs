@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import mypic from "../../Image/photo.jpg";
 function About() {
   return (
     <>
@@ -26,8 +27,8 @@ function About() {
               </p>
             </div>
             <img
-              src="/src/Image/photo.jpg"
-              alt="my pic"
+              src={mypic}
+              alt="mypic"
               className="w-1/4 rounded-xl"
             />
           </div>
