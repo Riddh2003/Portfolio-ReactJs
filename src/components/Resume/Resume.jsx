@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../../Image/Resume.jpg'
 
 const Resume = () => {
 
@@ -21,7 +20,7 @@ const Resume = () => {
                 ><i className="fa-solid fa-download text-black mr-2"/>
                     Download
                 </button>
-                <img src={resume} alt="resumeimage"  className='w-8/12 rounded-xl shadow-2xl'/>
+                <img src="https://drive.google.com/file/d/1ARZctuJtKbazPsXatv9bnw31hhFWOWbj/view?usp=sharing" alt="resumeimage"  className='w-8/12 rounded-xl shadow-2xl'/>
             </div>
         </div>
     );  
