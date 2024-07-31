@@ -26,7 +26,7 @@ function About() {
               </p>
             </div>
             <img
-              src="https://drive.google.com/file/d/1ARZctuJtKbazPsXatv9bnw31hhFWOWbj/view?usp=sharing"
+              src="https://drive.google.com/file/d/1zU0G_jkPY3CfD2WzIJxr0asA5WkOZc8P/view?usp=drive_link"
               alt="mypic"
               className="w-1/4 rounded-xl"
             />
