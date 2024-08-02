@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Resume = () => {
-
     const downloadImage = () => {
         const pdfurl = 'src/Image/Resume.pdf';
         const link = document.createElement('a');
@@ -11,16 +10,24 @@ const Resume = () => {
         link.click();
         document.body.removeChild(link);
     }
+
     return (
-        <div className='w-full flex flex-col justify-center items-center my-10 '>
-            <div className='container w-11/12 flex flex-col gap-6 justify-center items-center'>
+        <div className='w-full min-h-screen flex flex-col justify-center items-center sm:py-10 px-4'>
+            <div className='container w-full max-w-4xl flex flex-col gap-6 justify-center items-center'>
                 <button
                     onClick={downloadImage}
-                    className='p-3 rounded-md bg-orange-400 hover:bg-orange-500 text-center text-lg font-medium flex flex-row justify-evenly items-center'
-                ><i className="fa-solid fa-download text-black mr-2"/>
+                    className='p-2 rounded-md bg-orange-400 hover:bg-orange-500 text-center text-base md:text-lg font-medium flex flex-row justify-center items-center w-8/12 sm:px-4 sm:w-auto'
+                >
+                    <i className="fa-solid fa-download text-black mr-2"/>
                     Download
                 </button>
-                <img src="https://drive.google.com/file/d/1ARZctuJtKbazPsXatv9bnw31hhFWOWbj/view?usp=sharing" alt="resumeimage"  className='w-8/12 rounded-xl shadow-2xl'/>
+                <div className='w-full overflow-hidden rounded-xl shadow-2xl'>
+                    <img 
+                        src="./src/Image/Resume.jpg" 
+                        alt="Resume" 
+                        className='w-full h-auto object-contain'
+                    />
+                </div>
             </div>
         </div>
     );  
