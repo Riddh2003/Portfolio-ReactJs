@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => {
     const downloadImage = () => {
-        const pdfurl = 'src/Image/Resume.pdf';
+        const pdfurl = './src/components/Resume/Resume.pdf';
         const link = document.createElement('a');
         link.href = pdfurl;
         link.download = 'Riddh_Modi_Resume.pdf';
@@ -23,7 +23,7 @@ const Resume = () => {
                 </button>
                 <div className='w-full overflow-hidden rounded-xl shadow-2xl'>
                     <img 
-                        src="./src/Image/Resume.jpg" 
+                        src="./src/components/Resume/Resume.jpg" 
                         alt="Resume" 
                         className='w-full h-auto object-contain'
                     />

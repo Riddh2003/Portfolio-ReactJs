@@ -36,7 +36,7 @@ function About() {
             </p>
           </div>
           <img
-            src="./src/Image/photo.jpg"
+            src="./src/components/About/photo.jpg"
             alt="mypic"
             className="w-2/3 md:w-1/4 rounded-xl"
           />
