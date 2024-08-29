@@ -36,7 +36,7 @@ function About() {
             </p>
           </div>
           <img
-            src="./src/components/About/photo.jpg"
+            src="https://asset.cloudinary.com/dq0hiynoq/35e6e7edd41aa617d2577406e8a4f082"
             alt="mypic"
             className="w-2/3 md:w-1/4 rounded-xl"
           />

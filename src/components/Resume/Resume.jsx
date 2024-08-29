@@ -23,7 +23,7 @@ const Resume = () => {
                 </button>
                 <div className='w-full overflow-hidden rounded-xl shadow-2xl'>
                     <img 
-                        src="./src/components/Resume/Resume.jpg" 
+                        src="https://asset.cloudinary.com/dq0hiynoq/89cb24aae597af6d69552f2c92153316" 
                         alt="Resume" 
                         className='w-full h-auto object-contain'
                     />
