@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,14 +13,14 @@ export default function Header() {
             <nav className='flex flex-col md:flex-row justify-center bg-orange-400 shadow-orange-400 shadow-md p-2 w-11/12 rounded'>
                 <div className='flex justify-between w-full items-center p-1 md:p-2'>
                     <div>
-                        <h1 className='bg-gradient-to-r from-gray-900 to-gray-500 bg-clip-text text-transparent text-xl md:text-2xl font-medium'>
+                        <Link to='/' className='bg-gradient-to-r from-gray-900 to-gray-500 bg-clip-text text-transparent text-3xl font-medium'>
                             Riddh Modi
                             <span className='ml-1 border-r-4 md:border-r-8 border-gray-900'></span>
                             <span className='ml-1 border-r-4 md:border-r-8 border-gray-700'></span>
                             <span className='ml-1 border-r-4 md:border-r-8 border-gray-500'></span>
-                        </h1>
+                        </Link>
                     </div>
-                    <button 
+                    <button
                         className='md:hidden text-2xl text-white hover:text-black'
                         onClick={toggleMenu}
                     >
@@ -33,8 +33,8 @@ export default function Header() {
                             <li key={index}>
                                 <NavLink
                                     to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
-                                    className={({ isActive }) => 
-                                        `block text-center text-sm md:text-md md:text-md px-6 
+                                    className={({ isActive }) =>
+                                        `block text-center text-base md:text-md md:text-md px-6 
                                         ${isActive ? "text-black" : "text-white"} 
                                         hover:text-black`
                                     }
